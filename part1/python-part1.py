@@ -32,7 +32,7 @@ print(" we printed it again")
 # Let's print the index and the element at the index of P. enum = enumerate
 #enumerate(p) => [(0, 10), (1, 60), (2, 20) ... ]
 for (index, element) in enumerate(p):
-    print(f'Element at {index} is {p[index]}'
+    print(f'Element at {index} is {p[index]}')
 
 # List comprehensions. Another way to create a list.
 numbers = [1, 4, 9, 14, 32]
