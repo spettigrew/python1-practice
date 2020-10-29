@@ -45,8 +45,9 @@ print(squares)
 
 #List comprehensions. For each element from numbers, multiply by itself, and add to the cooler_squares
 # [ funciton(variable) fir variable in some_list]
-cooler_squares = [num*num] for num in numbers
-print(cooler_squares)
+cooler_squares = [num*num] 
+for num in numbers:
+    print(cooler_squares)
 
 # Create a list of just even numbers
 evens = [num for num in numbers if num % 2 == 0]
@@ -109,7 +110,7 @@ fruit.add('pizza')
 fruit_array = ['cucumber', 'apple', 'banana']
 
 for item in fruit:
-    print(tiem)
+    print(item)
 
 if 'cucumber' in fruit:
     print("It's hard to think that a cucumber is a fruit.")
